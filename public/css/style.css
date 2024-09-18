@@ -1,0 +1,230 @@
+/* Styling the container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the heading */
+.heading {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between the heading and button */
+}
+
+/* Styling the h1 */
+.heading h1 {
+    font-size: 36px;
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+/* Styling the button */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Remove the extra margin on the button */
+.btn.btn_success {
+    margin-left: 0;
+}
+
+/* Styling the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading styling */
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.heading .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styling the form */
+.form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Styling the submit button */
+button.btn-info {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Submit button hover effect */
+button.btn-info:hover {
+    background-color: #138496;
+}
+
+
+ /* blog */
+ /* Blog container styling */
+.blog {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Blog post styling */
+.blog_post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.blog_post h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description styling */
+.blog_post p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Date styling */
+.blog_post h5 {
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+}
+
+
+
+/* single post */
+
+/* General container styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center text inside the container */
+  
+}
+
+/* Heading styling */
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+}
+
+.heading .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.heading .btn:hover {
+    background-color: #218838;
+}
+
+/* Single post styling */
+.single_post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block; /* Center the block */
+    width: 100%;
+    max-width: 800px; /* Optional: Restrict maximum width */
+}
+
+.single_post h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.single_post p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.single_post b {
+    display: block;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.single_post .date {
+    font-size: 14px;
+    color: #79aeeb;
+}
+
